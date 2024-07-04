@@ -12,7 +12,7 @@ export const BlogCard = ({ cover, }) => {
                     Design User Interface</div>
                 <div className="font-normal decoration-gray-100">August 20, 2022</div>
             </div>
-            <div className="flex ">
+            <div>
                 <LeftButton />
                 <RigthButton />
             </div>
