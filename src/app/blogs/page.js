@@ -1,25 +1,20 @@
 "use client"
 import { MetaBlog } from "@/accets/MetaBlog"
 import { Menu } from "@/accets/Menu"
-import { Drawer } from "./Drawer"
+import { Drawer } from "@/Components/Drawer"
 import { useState } from "react"
 import { SearchIcon } from "@/accets/SearchIcon"
 import Link from "next/link"
-import App from "next/app"
-
-
-export const Navbar = () => {
+const Page = () => {
     const [isDrawerOpen, SetIsDrawerOpen] = useState(false)
     const handleDrawer = () => {
         SetIsDrawerOpen(!isDrawerOpen)
     }
     return (
-        <>
+        <div>
             <div className="bg-white w-full py-4 border-b">
                 <div className="flex items-center m-auto w-full lg:w-[1240px] px-4 justify-between">
-                    <Link href={`/app`}>
-                        <MetaBlog />
-                    </Link>
+                    <MetaBlog />
 
                     <div className="hidden lg:flex gap-5 flex-1 justify-center">
                         <div className="flex justify-center gap-10">
@@ -41,11 +36,10 @@ export const Navbar = () => {
                     </IconButton>
                 </div>
             </div>
-
             <Drawer isOpen={isDrawerOpen} closeDrawer={handleDrawer} />
-        </>
+            <div><h3 className="font-bold text-2xl decoration-black">All Blog Post</h3></div>
+        </div>
     )
-
 }
 const IconButton = ({ children, onClick, className }) => {
     return (
@@ -55,3 +49,4 @@ const IconButton = ({ children, onClick, className }) => {
         </div>
     );
 };
+export default Page

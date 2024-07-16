@@ -3,6 +3,8 @@ import Image from "next/image";
 import { Navbar } from "@/Components/Navbar";
 import { Cards } from "@/Components/Cards";
 import { useEffect, useState } from "react";
+import { Section1 } from "@/Components/Section1";
+
 const getArticle = async () => {
   const res = await fetch("https://dev.to/api/articles");
   const articles = await res.json()
@@ -25,6 +27,7 @@ export default function Home() {
     <>
       <Navbar />
       <Cards articles={articles} />
+      <Section1 articles={articles} />
     </>
   )
 }
