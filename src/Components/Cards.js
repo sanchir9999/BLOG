@@ -7,7 +7,7 @@ export const Cards = ({ articles }) => {
         SetIsDrawerOpen(!isDrawerOpen)
     }
     return (
-        <div className="m-auto w-full lg:w-[1240px] px-4 overflow-hidden">
+        <div className="m-auto w-full lg:w-[1216px] px-4 overflow-scroll">
             <div className="flex w-[400%]">
                 {articles.slice(0, 4).map((item) => {
                     return (

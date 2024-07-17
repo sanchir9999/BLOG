@@ -1,13 +1,13 @@
 "use Client"
 export const TrendCards = ({ picture }) => {
     return (
-        <div className="w-[289px] h-[320px] relative">
-            <img className="w-[1000px]" src={picture}></img>
-            <div className="absolute top-10 left-10">
+        <div className=" h-[320px] w-96 bg-red-200 relative ">
+            <img className="w-[1000px] h-full object-cover rounded" src="https://mrwallpaper.com/images/hd/travel-4k-clouds-mountains-7wmoz9la6tfkmvtr.jpg"></img>
+            <div className="absolute top-[171px] left-[30px] right-[30px] bottom-[28px] flex flex-col text-start">
                 <div className="text-white
-                     bg-sky-500 w-[97px] rounded-md border-4 border-indigo-500/100 ">Technology
+                     bg-sky-500 w-content  m-auto rounded flex justify-start text-start ">Technology
                 </div>
-                <div>
+                <div className="text-white">
                     The Impact of Technology on
                     the Workplace: How Technology is Changing
                 </div>
