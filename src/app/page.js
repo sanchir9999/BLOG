@@ -7,6 +7,7 @@ import { Section1 } from "@/Components/Section1";
 import { Section2 } from "@/Components/Section2";
 import { LoadMore } from "@/Components/LoadMore";
 import { Section3 } from "@/Components/Section3";
+
 const getArticle = async () => {
   const res = await fetch("https://dev.to/api/articles");
   const articles = await res.json()
@@ -33,6 +34,9 @@ export default function Home() {
       <Section2 articles={articles} />
       <LoadMore />
       <Section3 />
+      <div >
+      </div>
+
     </>
   )
 }
