@@ -17,10 +17,9 @@ export const Navbar = () => {
         <>
             <div className="bg-white w-full py-4 border-b">
                 <div className="flex items-center m-auto w-full lg:w-[1240px] px-4 justify-between">
-                    <Link href={`/app`}>
+                    <Link href="/">
                         <MetaBlog />
                     </Link>
-
                     <div className="hidden lg:flex gap-5 flex-1 justify-center">
                         <div className="flex justify-center gap-10">
                             <div>Home</div>

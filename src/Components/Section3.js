@@ -3,6 +3,7 @@ import { Instagram } from "@/accets/Instagram"
 import { Twitter } from "@/accets/Twitter"
 import { Inter } from "@/accets/Inter"
 import { Metaa } from "@/accets/Metaa"
+import Link from "next/link"
 
 export const Section3 = () => {
     return (
@@ -40,9 +41,15 @@ export const Section3 = () => {
 
                     </div>
                     <div className="flex lg:flex-col gap-[24px] w-[521px] items-center mt-5">
-                        <p>Home</p>
-                        <p>Blog</p>
-                        <p>Contact</p>
+                        <Link href="/">
+                            <p>Home</p>
+                        </Link>
+                        <Link href={`/blogs`}>
+                            <p>Blog</p>
+                        </Link>
+                        <Link href={`contact`}>
+                            <p>Contact</p>
+                        </Link>
                     </div>
                     <div className="flex gap-[27px] w-[144px] mt-5">
                         <Facebook />
@@ -53,7 +60,9 @@ export const Section3 = () => {
                 </div>
                 <div className="m-auto w-full lg:w-[1216px] mt-6 flex flex-col gap-[64px] lg:flex-row justify-between border-t-4 pt-8 pb-8">
                     <div>
-                        <Metaa />
+                        <Link href="/">
+                            <Metaa />
+                        </Link>
                     </div>
                     <div className="flex flex-col gap-[16px] justify-start lg:flex-row">
                         <p>Terms of Use</p>

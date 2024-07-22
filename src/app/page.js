@@ -5,7 +5,6 @@ import { Cards } from "@/Components/Cards";
 import { useEffect, useState } from "react";
 import { Section1 } from "@/Components/Section1";
 import { Section2 } from "@/Components/Section2";
-import { LoadMore } from "@/Components/LoadMore";
 import { Section3 } from "@/Components/Section3";
 
 const getArticle = async () => {
@@ -32,7 +31,6 @@ export default function Home() {
       <Cards articles={articles} />
       <Section1 articles={articles} />
       <Section2 articles={articles} />
-      <LoadMore />
       <Section3 />
       <div >
       </div>
