@@ -62,7 +62,7 @@ export const Section2 = ({ articles }) => {
 
             <div className="w-full grid grid-cols-3 gap-[24px]">
                 {blogs.map((blog) => (
-                    <Link key={blog.id} href={`/blogs/${blogs.id}`}>
+                    <Link key={blog.id} href={`/blogs/${blog.id}`}>
                         <BlogCards
                             key={blog.id}
                             image={blog.cover_image}

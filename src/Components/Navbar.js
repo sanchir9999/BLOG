@@ -22,11 +22,16 @@ export const Navbar = () => {
                     </Link>
                     <div className="hidden lg:flex gap-5 flex-1 justify-center">
                         <div className="flex justify-center gap-10">
-                            <div>Home</div>
+                            <Link href="/">
+                                <div>Home</div>
+                            </Link>
                             <Link href={`/blogs`}>
                                 <div className="cursor-pointer">Blog</div>
                             </Link>
-                            <div>Contact</div>
+                            <Link href="/contact">
+                                <div>Contact</div>
+
+                            </Link>
                         </div>
                     </div>
 
