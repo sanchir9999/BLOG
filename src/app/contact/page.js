@@ -29,11 +29,11 @@ const Page = () => {
                     <h1 className="font-semibold text-lg">Leave a Message</h1>
                     <div className="flex flex-col gap-2 w-full">
                         <div className="lg:flex lg:justify-between lg:gap-7 gap-x-3">
-                            <input className="border-[1px] rounded-xl border-[#E5E7EB] rounded" type="Subject" placeholder="Subject"></input>
-                            <input className="border-[1px] rounded-xl border-[#E5E7EB] rounded lg:w-full" type="Subject" placeholder="YourName"></input>
+                            <input className="border-[1px] rounded-xl border-[#E5E7EB] " type="Subject" placeholder="Subject"></input>
+                            <input className="border-[1px] rounded-xl border-[#E5E7EB]  lg:w-full" type="Subject" placeholder="YourName"></input>
                         </div>
-                        <input className="border-[1px] rounded-xl border-[#E5E7EB] rounded" type="Subject" placeholder="YourName"></input>
-                        <input className="border-[1px] rounded-xl border-[#E5E7EB] rounded" type="Subject" placeholder="Write a message"></input>
+                        <input className="border-[1px] rounded-xl border-[#E5E7EB] " type="Subject" placeholder="YourName"></input>
+                        <input className="border-[1px] rounded-xl border-[#E5E7EB] " type="Subject" placeholder="Write a message"></input>
                     </div>
                     <button className="m-auto w-[200px] pt-2 bg-[#4B6BFB] text-white rounded-md flex justify-center content-center h-10">
                         Send Message

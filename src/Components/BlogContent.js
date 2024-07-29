@@ -10,7 +10,7 @@ export const BlogContent = ({
 }) => {
     return (
         <>
-            <div className="w-full h-fit m-auto lg:w-[800px] border-current border-4 border-red-500">
+            <div className="w-full h-fit m-auto lg:w-[800px] ">
                 <div className="w-full h-fit flex flex-col justify-center items-center gap-y-8">
                     <div className="w-full h-fit flex flex-col items-start gap-y-5">
                         <h3 className="text-4xl text-black font-semibold">
