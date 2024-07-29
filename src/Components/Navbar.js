@@ -36,7 +36,7 @@ export const Navbar = () => {
                     </div>
 
                     <div className="hidden lg:flex justify-center gap-4 items-center">
-                        <div>Search</div>
+                        <input placeholder="Search" className="border-[2px] rounded-xl border-[#E5E7EB]"></input>
                         <div><SearchIcon /></div>
                     </div>
 

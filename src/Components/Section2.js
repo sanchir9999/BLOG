@@ -60,7 +60,7 @@ export const Section2 = ({ articles }) => {
                 </Link>
             </div>
 
-            <div className="w-full grid grid-cols-3 gap-[24px]">
+            <div className="w-full lg:grid lg:grid-cols-3 lg:gap-[24px]">
                 {blogs.map((blog) => (
                     <Link key={blog.id} href={`/blogs/${blog.id}`}>
                         <BlogCards
@@ -86,7 +86,7 @@ export const Section2 = ({ articles }) => {
 const BlogCards = ({ image, title, date, tags }) => {
     return (
         <div className="border p-4 flex flex-col gap-4 w-full rounded-md bg-white">
-            <img src="https://mrwallpaper.com/images/hd/travel-4k-clouds-mountains-7wmoz9la6tfkmvtr.jpg" alt="image" className="aspect-[2/1] w-full rounded-md" />
+            <img src={image} alt="image" className="aspect-[2/1] w-full rounded-md" />
             <div className="py-2 flex flex-col gap-4">
                 <div className="font-semibold text-lg">{title}</div>
                 <div className="text-gray-500">{new Date(date).toLocaleDateString()}</div>

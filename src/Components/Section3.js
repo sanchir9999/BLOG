@@ -52,12 +52,21 @@ export const Section3 = () => {
                         </Link>
                     </div>
                     <div className="flex gap-[27px] w-[144px] mt-5">
-                        <Facebook />
-                        <Twitter />
-                        <Instagram />
-                        <Inter />
+                        <Link href="https://www.facebook.com/">
+                            <Facebook />
+                        </Link>
+                        <Link href="https://www.x.com/">
+                            <Twitter />
+                        </Link>
+                        <Link href="https://www.instagram.com/">
+                            <Instagram />
+                        </Link>
+                        <Link href="https://www.intercom.com/">
+                            <Inter />
+                        </Link>
+
                     </div>
-                </div>
+                </div >
                 <div className="m-auto w-full lg:w-[1216px] mt-6 flex flex-col gap-[64px] lg:flex-row justify-between border-t-4 pt-8 pb-8">
                     <div>
                         <Link href="/">

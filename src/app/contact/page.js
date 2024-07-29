@@ -14,11 +14,11 @@ const Page = () => {
                             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
                     </div>
                     <div className="lg:flex lg:items-between lg:m-auto lg:w-[638px] ">
-                        <div className="p-4 rounded-sm border-current border-4 border-gray-100 flex flex-col gap-1">
+                        <div className="p-4 border-[1px] rounded-xl border-[#E5E7EB] flex flex-col gap-1">
                             <h1 className="font-semibold text-2xl">Address</h1>
                             <p className="font-normal text-base">1328 Oak Ridge Drive, Saint Louis, Missouri</p>
                         </div>
-                        <div className="p-4 border-current border-4 border-gray-100 flex flex-col gap-1">
+                        <div className="p-4 border-[1px] rounded-xl border-[#E5E7EB] flex flex-col gap-1">
                             <h1 className="font-semibold text-2xl">Contact</h1>
                             <p className="font-normal text-base">313-332-8662
                                 info@email.com</p>
@@ -29,11 +29,11 @@ const Page = () => {
                     <h1 className="font-semibold text-lg">Leave a Message</h1>
                     <div className="flex flex-col gap-2 w-full">
                         <div className="lg:flex lg:justify-between lg:gap-7 gap-x-3">
-                            <input className="border-current border-4 border-gray-200 rounded" type="Subject" placeholder="Subject"></input>
-                            <input className="border-current border-4 border-gray-200 rounded lg:w-full" type="Subject" placeholder="YourName"></input>
+                            <input className="border-[1px] rounded-xl border-[#E5E7EB] rounded" type="Subject" placeholder="Subject"></input>
+                            <input className="border-[1px] rounded-xl border-[#E5E7EB] rounded lg:w-full" type="Subject" placeholder="YourName"></input>
                         </div>
-                        <input className="border-current border-4 border-gray-200 rounded" type="Subject" placeholder="YourName"></input>
-                        <input className="border-current border-4 border-gray-200 rounded" type="Subject" placeholder="Write a message"></input>
+                        <input className="border-[1px] rounded-xl border-[#E5E7EB] rounded" type="Subject" placeholder="YourName"></input>
+                        <input className="border-[1px] rounded-xl border-[#E5E7EB] rounded" type="Subject" placeholder="Write a message"></input>
                     </div>
                     <button className="m-auto w-[200px] pt-2 bg-[#4B6BFB] text-white rounded-md flex justify-center content-center h-10">
                         Send Message
