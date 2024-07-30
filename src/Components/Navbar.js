@@ -16,7 +16,7 @@ export const Navbar = () => {
     }
     return (
         <>
-            <div className="bg-white w-full py-4 border-b">
+            <div className="bg-white w-full py-4 border-b" id="start">
                 <div className="flex items-center m-auto w-full lg:w-[1240px] px-4 justify-between">
                     <Link href="/" >
                         <MetaBlog />

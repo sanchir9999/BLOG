@@ -38,7 +38,7 @@ export const Section3 = () => {
                     </div>
                 </div>
                 <div className="flex lg:flex-col gap-[24px] w-[521px] items-center mt-5">
-                    <Link href="/" onClick={scrollToTop} className="cursor-pointer bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                    <Link href="#start" className="cursor-pointer bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                         Home
                     </Link>
                     <Link href="/blogs" className="text-blue-500">
